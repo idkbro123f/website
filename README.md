@@ -39,7 +39,7 @@ If the website is running you can access it here [Website](https://idkbro123f.gi
 
 # Rendszer fő részei:
 -	App: [/src](src) mappában a [/components](src/components) mappában az általunk külön elkészített renderelt weblapok illetve a main.jsx.
--	Adatlekérés: Egyszerű fetch formában, a kapott választ formázva, illetve benne iterálva kapjuk az általunk látható grafikonokat ([Charts](src/components/Charts), [Dashboard](src/components/DataDashboard))
+-	Adatlekérés: Egyszerű fetch formában, a kapott választ formázva, illetve benne iterálva kapjuk az általunk látható grafikonokat ([Charts](src/components/Charts.jsx), [Dashboard](src/components/DataDashboard.jsx))
 -	Grafikonok: Címmel ellátva lehet látni a mi szükségleteinknek megfelelően kiválasztott termék adatait, vonal illetve tömbgrafikon.
 - About: Rövid leírást ad a weblap szerepéről, illetve illusztrációval szemléltet.
-- [package.json](/package)
+- [package.json](/package.json)
