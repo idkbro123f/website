@@ -39,7 +39,12 @@ Ha fut a weblap akkor itt is elérhető [Website](https://idkbro123f.github.io/w
 
 # Rendszer fő részei:
 -	App: [/src](src) mappában a [/components](src/components) mappában az általunk külön elkészített renderelt weblapok illetve a main.jsx.
--	Adatlekérés: Egyszerű fetch formában, a kapott választ formázva, illetve benne iterálva kapjuk az általunk látható grafikonokat ([Charts](src/components/Charts.jsx), [Dashboard](src/components/DataDashboard.jsx))
+-	Adatlekérés: Egyszerű fetch formában, a kapott választ formázva, illetve benne iterálva kapjuk az általunk látható grafikonokat ([Charts](src/components/Charts.jsx), [Dashboard](src/components/DataDashboard.jsx)), amelyeken a következők találhatók:
+  - Átlag eladási ár (7,14 nap, 1 hónap, illetve január 1-től máig)
+  - Különböző piacokon a termék medián ára
+  - Termék leírás (kép, leírás, link a termékhez, stb..)
+  - 10 napos átlag medián eladási ár a steamen
+  - 'Árbecslés' szorzóval
 -	Grafikonok: Címmel ellátva lehet látni a mi szükségleteinknek megfelelően kiválasztott termék adatait, vonal illetve tömbgrafikon.
 - About: Rövid leírást ad a weblap szerepéről, illetve illusztrációval szemléltet.
 - [package.json](/package.json): Ebben találjuk a különböző dependenciákat amiket használ a program a futáshoz.
