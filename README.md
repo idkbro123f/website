@@ -23,19 +23,19 @@ Miért **react-router-dom** és **recharts**
 
 
 ## HOW TO INSTALL
-Needed: git and npm
-> Download links
+Kell: git and npm
+> Letöltési linkek
 [Git](https://git-scm.com/)
 [Npm](https://nodejs.org/)
 > 
-Find a file where u want to clone the repository to and run these commands in the terminal:
+Készíts egy fájlt ahova klónolni szeretnéd a repository-t és vagy valamilyen kódfejlesztő környezet termináljába vagy akár git bashbe ezeket a commandokat írd be:
   1. git clone https://github.com/idkbro123f/website.git
   2. cd website
   3. npm install
   4. npm run dev
-If everything goes right it should work
+Ha minden jól megy akkor létrejön egy localhost server
 
-If the website is running you can access it here [Website](https://idkbro123f.github.io/website/)
+Ha fut a weblap akkor itt is elérhető [Website](https://idkbro123f.github.io/website/)
 
 # Rendszer fő részei:
 -	App: [/src](src) mappában a [/components](src/components) mappában az általunk külön elkészített renderelt weblapok illetve a main.jsx.
