@@ -24,3 +24,5 @@ Needed: git and npm
 3. npm install
 4. npm run dev
 If everything goes right it should work
+
+If the website is running you can access it here https://idkbro123f.github.io/website/
