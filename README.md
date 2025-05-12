@@ -27,6 +27,7 @@ Needed: git and npm
 > Download links
 [Git](https://git-scm.com/)
 [Npm](https://nodejs.org/)
+> 
 Find a file where u want to clone the repository to and run these commands in the terminal:
   1. git clone https://github.com/idkbro123f/website.git
   2. cd website
@@ -35,3 +36,10 @@ Find a file where u want to clone the repository to and run these commands in th
 If everything goes right it should work
 
 If the website is running you can access it here [Website](https://idkbro123f.github.io/website/)
+
+# Rendszer fő részei:
+-	App: [/src](src) mappában a [/components](src/components) mappában az általunk külön elkészített renderelt weblapok illetve a main.jsx.
+-	Adatlekérés: Egyszerű fetch formában, a kapott választ formázva, illetve benne iterálva kapjuk az általunk látható grafikonokat ([Charts](src/components/Charts), [Dashboard](src/components/DataDashboard))
+-	Grafikonok: Címmel ellátva lehet látni a mi szükségleteinknek megfelelően kiválasztott termék adatait, vonal illetve tömbgrafikon.
+- About: Rövid leírást ad a weblap szerepéről, illetve illusztrációval szemléltet.
+- [package.json](/package)
