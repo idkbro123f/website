@@ -18,7 +18,7 @@ Miért **Vite**
 
 Miért **react-router-dom** és **recharts**
 
-Recharts azért mert megtalálható volt ebben is és elég könnyen alakithatóak a grafikonok, react-router-dom meg a lapok közötti mozgáshoz illetve hogy rendesen deployolható legyen.
+- **Recharts** azért mert megtalálható volt ebben is és elég könnyen alakithatóak a grafikonok, **react-router-dom** meg a lapok közötti mozgáshoz illetve hogy rendesen deployolható legyen.
 
 
 
@@ -42,4 +42,4 @@ If the website is running you can access it here [Website](https://idkbro123f.gi
 -	Adatlekérés: Egyszerű fetch formában, a kapott választ formázva, illetve benne iterálva kapjuk az általunk látható grafikonokat ([Charts](src/components/Charts.jsx), [Dashboard](src/components/DataDashboard.jsx))
 -	Grafikonok: Címmel ellátva lehet látni a mi szükségleteinknek megfelelően kiválasztott termék adatait, vonal illetve tömbgrafikon.
 - About: Rövid leírást ad a weblap szerepéről, illetve illusztrációval szemléltet.
-- [package.json](/package.json)
+- [package.json](/package.json): Ebben találjuk a különböző dependenciákat amiket használ a program a futáshoz.
