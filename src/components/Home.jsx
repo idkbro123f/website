@@ -1,4 +1,3 @@
-// components/Home.jsx
 
 function Home() {
   return (
