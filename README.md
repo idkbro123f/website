@@ -33,6 +33,7 @@ Készíts egy fájlt ahova klónolni szeretnéd a repository-t és vagy valamily
   2. cd website
   3. npm install
   4. npm run dev
+
 Ha minden jól megy akkor létrejön egy localhost server
 
 Ha fut a weblap akkor itt is elérhető [Website](https://idkbro123f.github.io/website/)
