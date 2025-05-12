@@ -1,6 +1,12 @@
 # Glorp Analytics
 A projekt célja igazából egy olyan weboldal amin keresztül egy átlag felhasználó az áltála megtekinteni való itemet (ez esetben videójátékbeli termékekről beszélünk amelyek valós értékkel rendelkeznek) tudja megtekinteni, és különböző feltételek alapján jut hozzá információhoz.
 
+# Fontosabb célkitűzések
+- Könnyű bővíthetőség (scalability)
+-	Valós adatokkal való munka
+-	Letisztult és egyszerű design
+
+
 Miért **React?**
 - Rengeteg könytár és support
 - Scalable
@@ -18,12 +24,14 @@ Recharts azért mert megtalálható volt ebben is és elég könnyen alakitható
 
 ## HOW TO INSTALL
 Needed: git and npm
+> Download links
 [Git](https://git-scm.com/)
 [Npm](https://nodejs.org/)
-1. git clone https://github.com/idkbro123f/website.git
-2. cd website
-3. npm install
-4. npm run dev
+Find a file where u want to clone the repository to and run these commands in the terminal:
+  1. git clone https://github.com/idkbro123f/website.git
+  2. cd website
+  3. npm install
+  4. npm run dev
 If everything goes right it should work
 
-If the website is running you can access it here https://idkbro123f.github.io/website/
+If the website is running you can access it here [Website](https://idkbro123f.github.io/website/)
